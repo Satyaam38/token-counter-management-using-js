@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(228, 129, 129);
+}
+.one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: bisque;
+    gap: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    background-color: rgb(228, 129, 129);
+}
+
+.grid-item{
+    background-color: white;
+    margin: 0%;
+    padding: 48px;
+    font-size: 3rem;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
